@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: montserrat;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.top {
+    height: 1024px;
+    background-image: url(img/top__background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.top__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+    max-width: 760px;
+    padding-top: 217px;
+}
+
+.top__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    max-width: 481px;
+    padding-top: 32px;
+    padding-bottom: 44px;
+}
+
+.top__text-bold {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.top__button {
+    width: 234px;
+    height: 48px;
+    background: #9C0332;
+    border-radius: 30px;
+    border-style: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.top__button:hover {
+    background: #EB443F;
+}
+
+.menu {
+    background-image: url(img/menu__background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    gap: 32px;
+    padding-bottom: 128px;
+    padding-top: 128px;
+}
+
+.game1 {
+    background-image: url(img/game1.png);
+}
+
+.game2 {
+    background-image: url(img/game2.png);
+}
+
+.game3 {
+    background-image: url(img/game3.png);
+}
+
+.game {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: end;
+    padding-left: 32px;
+    padding-bottom: 32px;
+    width: 379px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.game:hover {
+    border: 3px solid #44D2FF;
+    border-radius: 16px;
+    background-origin: border-box;
+    padding-left: 29px;
+    padding-bottom: 29px;
+}
+
