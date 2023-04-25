@@ -72,15 +72,17 @@ body {
     background: #EB443F;
 }
 
-.menu {
+.game-list {
     background-image: url(img/menu__background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
     display: flex;
     gap: 32px;
     padding-bottom: 128px;
     padding-top: 128px;
+    flex-wrap: wrap;
 }
 
 .game1 {
@@ -105,7 +107,7 @@ body {
     align-items: end;
     padding-left: 32px;
     padding-bottom: 32px;
-    width: 379px;
+    width: 378px;
     height: 300px;
     box-sizing: border-box;
 }
@@ -118,3 +120,4 @@ body {
     padding-bottom: 29px;
 }
 
+@import 'mobile';
