@@ -49,7 +49,7 @@ body {
     color: #FFFFFF;
 }
 
-.top__button {
+.button {
     width: 234px;
     height: 48px;
     background: #9C0332;
@@ -68,7 +68,7 @@ body {
     transition: all 0.3s;
 }
 
-.top__button:hover {
+.button:hover {
     background: #EB443F;
 }
 
@@ -77,7 +77,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+
     display: flex;
     gap: 32px;
     padding-bottom: 128px;
@@ -118,6 +118,44 @@ body {
     background-origin: border-box;
     padding-left: 29px;
     padding-bottom: 29px;
+}
+
+.product {
+    background-image: url(img/backdroundproduct.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 234px;
+    padding-bottom: 234px;
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        max-width: 588px;
+    }
+
 }
 
 @import 'mobile';
