@@ -1,26 +1,26 @@
 // Задание 1
 
 let password = 'пароль';
-let enter = prompt (`Введите пароль`);
+let enter = prompt(`Введите пароль`);
 
 if (enter === password) {
-    console.log ('Пароль введен верно');
+    console.log('Пароль введен верно');
 } else {
-    console.log ('Пароль введен неправильно');
+    console.log('Пароль введен неправильно');
 }
 
 // Задание 2
 
 let c = 2;
-let interval = c > 0 && c < 10 ? 'Верно' : 'Неверно' ;
-console.log (interval);
+let interval = c > 0 && c < 10 ? 'Верно' : 'Неверно';
+console.log(interval);
 
 // Задание 3
 
 let d = 2;
 let e = 100;
 let result = d > 100 || e > 100 ? 'Верно' : 'Неверно';
-console.log (result);
+console.log(result);
 
 // Задание 4 
 
@@ -34,21 +34,29 @@ alert(Number(a) + Number(b));
 let monthNumber = 12;
 
 switch (monthNumber) {
-    case 12 || 1 || 2:
+    case 12:
+    case 1:
+    case 2:
         console.log('Зима');
         break;
-    case 3 || 4 || 5:
+    case 3:
+    case 4:
+    case 5:
         console.log('Весна');
         break;
-    case 6 || 7 || 8:
+    case 6:
+    case 7:
+    case 8:
         console.log('Лето');
         break;
-    case 9 || 10 || 11:
+    case 9:
+    case 10:
+    case 11:
         console.log('Осень');
         break;
 
     default:
-        console.log ('Номер месяца введен некорректно')
+        console.log('Номер месяца введен некорректно')
         break;
 }
 
@@ -57,11 +65,11 @@ switch (monthNumber) {
 let number = prompt("Пожалуйста, введите любое число");
 
 if (number % 2 === 0) {
-    alert ('Число четное');
+    alert('Число четное');
 } else if (number % 2 === 1) {
-    alert ('Число нечетное');
+    alert('Число нечетное');
 } else {
-    alert ('Введено некорректное число');
+    alert('Введено некорректное число');
 }
 
 // Задание 8
