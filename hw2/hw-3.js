@@ -1,85 +1,85 @@
-// Задание 1
+// // Задание 1
 
-let password = 'пароль';
-let enter = prompt(`Введите пароль`);
+// let password = 'пароль';
+// let enter = prompt(`Введите пароль`);
 
-if (enter === password) {
-    console.log('Пароль введен верно');
-} else {
-    console.log('Пароль введен неправильно');
-}
+// if (enter === password) {
+//     console.log('Пароль введен верно');
+// } else {
+//     console.log('Пароль введен неправильно');
+// }
 
-// Задание 2
+// // Задание 2
 
-let c = 2;
-let interval = c > 0 && c < 10 ? 'Верно' : 'Неверно';
-console.log(interval);
+// let c = 2;
+// let interval = c > 0 && c < 10 ? 'Верно' : 'Неверно';
+// console.log(interval);
 
-// Задание 3
+// // Задание 3
 
-let d = 2;
-let e = 100;
-let result = d > 100 || e > 100 ? 'Верно' : 'Неверно';
-console.log(result);
+// let d = 2;
+// let e = 100;
+// let result = d > 100 || e > 100 ? 'Верно' : 'Неверно';
+// console.log(result);
 
-// Задание 4 
+// // Задание 4 
 
-let a = '2';
-let b = '3';
+// let a = '2';
+// let b = '3';
 
-alert(Number(a) + Number(b));
+// alert(Number(a) + Number(b));
 
-// Задание 5
+// // Задание 5
 
-let monthNumber = 12;
+// let monthNumber = 12;
 
-switch (monthNumber) {
-    case 12:
-    case 1:
-    case 2:
-        console.log('Зима');
-        break;
-    case 3:
-    case 4:
-    case 5:
-        console.log('Весна');
-        break;
-    case 6:
-    case 7:
-    case 8:
-        console.log('Лето');
-        break;
-    case 9:
-    case 10:
-    case 11:
-        console.log('Осень');
-        break;
+// switch (monthNumber) {
+//     case 12:
+//     case 1:
+//     case 2:
+//         console.log('Зима');
+//         break;
+//     case 3:
+//     case 4:
+//     case 5:
+//         console.log('Весна');
+//         break;
+//     case 6:
+//     case 7:
+//     case 8:
+//         console.log('Лето');
+//         break;
+//     case 9:
+//     case 10:
+//     case 11:
+//         console.log('Осень');
+//         break;
 
-    default:
-        console.log('Номер месяца введен некорректно')
-        break;
-}
+//     default:
+//         console.log('Номер месяца введен некорректно')
+//         break;
+// }
 
-// Задание 7
+// // Задание 7
 
-let number = prompt("Пожалуйста, введите любое число");
+// let number = prompt("Пожалуйста, введите любое число");
 
-if (number % 2 === 0) {
-    alert('Число четное');
-} else if (number % 2 === 1) {
-    alert('Число нечетное');
-} else {
-    alert('Введено некорректное число');
-}
+// if (number % 2 === 0) {
+//     alert('Число четное');
+// } else if (number % 2 === 1) {
+//     alert('Число нечетное');
+// } else {
+//     alert('Введено некорректное число');
+// }
 
-// Задание 8
+// // Задание 8
 
-if (/Android/.test(navigator.userAgent)) {
-    alert("Установите версию приложения для Android по ссылке")
+// if (/Android/.test(navigator.userAgent)) {
+//     alert("Установите версию приложения для Android по ссылке")
 
-} else if (/iPhone/.test(navigator.userAgent)) {
-    alert("Установите версию приложения для iOS по ссылке");
+// } else if (/iPhone/.test(navigator.userAgent)) {
+//     alert("Установите версию приложения для iOS по ссылке");
 
-} else {
-    alert("Вы используете не мобильное устройство");
-}
+// } else {
+//     alert("Вы используете не мобильное устройство");
+// }
