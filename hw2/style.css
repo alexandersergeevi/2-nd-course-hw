@@ -151,6 +151,37 @@ body {
   max-width: 588px;
 }
 
+.riddle {
+  background-image: url(img/riddle__background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 276px;
+  padding-bottom: 288px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.riddle__text {
+  text-align: center;
+}
+
+.footer {
+  padding-top: 32.5px;
+  padding-bottom: 32.5px;
+  background: #000915;
+  border: 1px solid rgba(184, 212, 255, 0.2);
+}
+.footer__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -217,5 +248,12 @@ body {
   }
   .product__img {
     max-width: 344px;
+  }
+  .riddle {
+    padding-top: 54px;
+    background-position: 40%;
+  }
+  .footer {
+    border: none;
   }
 }/*# sourceMappingURL=style.css.map */
